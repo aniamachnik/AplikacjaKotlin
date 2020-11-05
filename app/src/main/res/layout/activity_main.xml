@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00BCD4"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    //ustawinie charakteru tekstu "Moja pierwsza aplikacja", jego id, położenia,koloru,tekstu który ma wyświetlać
+
+    <TextView
+        android:id="@+id/Tekst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="24dp"
+        android:text="@string/Tekst"
+        android:textSize="24sp" />
+
+    //ustawienie drugiego linearu
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        //ustawinie charakteru przycisku "Kliknij mnie", jego id, stylu, położenia, koloru oraz rozmiaru, koloru tekstu który ma wyświetlać
+        <Button
+            android:id="@+id/SUB_button"
+            style="@android:style/Widget.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#FFEB3B"
+            android:bufferType="normal"
+            android:padding="5dp"
+            android:text="@string/SUB"
+            android:textColor="#3F51B5" />
+
+        //ustawinie charakteru przycisku "Sprawdź tutaj", jego id, stylu, położenia, koloru oraz rozmiaru, koloru tekstu który ma wyświetlać
+        <Button
+            android:id="@+id/LK_Button"
+            style="@android:style/Widget.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#FF5722"
+            android:padding="5dp"
+            android:text="@string/LK"
+            android:textColor="#3F51B5" />
+
+    </LinearLayout>
+
+</LinearLayout>

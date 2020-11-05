@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">AplikacjaKotlin</string>
+    <string name="SUB">Kliknij mnie</string>
+    <string name="LK">Sprawdź tutaj</string>
+    <string name="Tekst">Moja pierwsza Aplikacja</string>
+
+</resources>
